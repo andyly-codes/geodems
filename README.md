@@ -10,6 +10,30 @@ The main tasks are:
 * create customer segments using unsupervised clustering algorithm 
 * visualise where the segments are based on cluster assignment 
 
+## Choosing the variables
+This is probably the most important step in the process. When variables are chosen you must justify why they should be used according to the brief (supported by literature where necessary). 
+
+From the data avaialble I went for: 
+* a range of ages - as a good indicator of lifestyle
+* homeownership - people who own their home are more likely to have higher income
+* renters - nowadays London has a higher proportion of young families who rent
+* average income - demographic info used for 
+* car ownership - need a car to use a car seat :) 
+* 'higher-skilled' jobs - these are jobs classified by the government that are likely to earn more 
+* young children - young children will be using this product   
+
+Variables should be checked for multicollinearity prior to clustering. 
+Definition of high correlation is up to individual but I've gone for > 0.8. 
+
+![corellogram](https://github.com/andyly-codes/geodems/blob/master/corellogram.svg)
+
+## K-means clustering 
+There are different methods for choosing 'k', such as elbow, silhouette etc. 
+In this elbow plot, the algorithm suggests a k of 4. 
+However, I didn't think the clusters were distinguished enough,
+so went for 5 cluster in the end. 
+
+
 ## Checking clusters 
 Box & whiskers visualise the tightness of the clusters & outliers 
 
