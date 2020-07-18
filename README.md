@@ -10,6 +10,15 @@ The main tasks are:
 * create customer segments using unsupervised clustering algorithm 
 * visualise where the segments are based on cluster assignment 
 
+## Checking clusters 
+Box & whiskers visualise the tightness of the clusters & outliers 
+
+![boxwhisker](https://github.com/andyly-codes/geodems/blob/master/Rplot61.svg)
+
+A summary of z-scores highlights certain characteristics within your clusters 
+
+![boxwhisker](https://github.com/andyly-codes/geodems/blob/master/Rplot65.svg)
+
 ## Visualising the clusters
 
 Following k-means clustering, append the assigned clusters to the corresponding MSOAs to get a map of all clusters. 
