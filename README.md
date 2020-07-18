@@ -5,9 +5,10 @@ The aim of this task is to great a geodemographic classification to target a spe
 The start-up is a premium babyseat manufacturer and would like to market their product to young affluent families in London. 
 The maps are build using tmap package - I find the aesthetic is super clean and the layering is familiar to ArcGIS.  
 
-The main tasks are 1) selecting the variables 
-                   2) create customer segments using unsupervised clustering algorithm 
-                   3) visualise where the segments are based on cluster assignment 
+The main tasks are:
+* selecting the variables 
+* create customer segments using unsupervised clustering algorithm 
+* visualise where the segments are based on cluster assignment 
 
 ## Visualising the clusters
 
